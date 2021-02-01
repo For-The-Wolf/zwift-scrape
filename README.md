@@ -3,7 +3,7 @@ Scrape race results from www.zwiftpower.com, also includes a score calculator fo
 
 ## Description
 
-Uses the Selenium Python API with the FireFox geckodriver to scrape race results from zwiftpower. 
+Uses the Selenium Python API with the Firefox geckodriver to scrape race results from zwiftpower. 
 * `python zwift_scrape url-to-results` scrapes the given URL and creates two CSVs, one containing the race results for all riders, the other containing the results for the first through and fastest through for each split. 
 * `python calculate_wtrl_scores url-or-filepath` calculates the scores for each rider in a WTRL time trial and saves all riders scores in a CSV. Can be called with either a URL to race results (in which case `zwift_scrape` will be used to collect results), or can be called with the filepath to previously scraped CSVs.
 
