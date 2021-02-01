@@ -1,0 +1,150 @@
+1612213835896	geckodriver	INFO	Listening on 127.0.0.1:51710
+1612213838921	mozrunner::runner	INFO	Running command: "P:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\joein\\AppData\\Local\\Temp\\rust_mozprofileUIQPKi"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612213840526	Marionette	INFO	Listening on port 51718
+1612213840943	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612213840975	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://www.zwiftpower.com/zp/js/mini/event_results693.js?assets_version=129, line 200: unreachable code after return statement
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1612213859781	Marionette	INFO	Stopped listening on port 51718
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1612213909625	geckodriver	INFO	Listening on 127.0.0.1:51793
+1612213912650	mozrunner::runner	INFO	Running command: "P:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\joein\\AppData\\Local\\Temp\\rust_mozprofilepZ5UiR"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612213914172	Marionette	INFO	Listening on port 51801
+1612213914668	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612213914677	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://www.zwiftpower.com/zp/js/mini/event_results693.js?assets_version=129, line 200: unreachable code after return statement
+1612213929600	Marionette	INFO	Stopped listening on port 51801
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1612214012793	geckodriver	INFO	Listening on 127.0.0.1:51877
+1612214015811	mozrunner::runner	INFO	Running command: "P:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\joein\\AppData\\Local\\Temp\\rust_mozprofileS2AEuP"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612214017321	Marionette	INFO	Listening on port 51885
+1612214017830	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612214017840	Marionette	ERROR	[18] No reply from Marionette:Register
+JavaScript warning: https://www.zwiftpower.com/zp/js/mini/event_results693.js?assets_version=129, line 200: unreachable code after return statement
+1612214054354	Marionette	INFO	Stopped listening on port 51885
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1612214195376	geckodriver	INFO	Listening on 127.0.0.1:51983
+1612214198407	mozrunner::runner	INFO	Running command: "P:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\joein\\AppData\\Local\\Temp\\rust_mozprofileA8I2Ni"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612214199797	Marionette	INFO	Listening on port 51991
+1612214199928	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612214199937	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://www.zwiftpower.com/zp/js/mini/event_results693.js?assets_version=129, line 200: unreachable code after return statement
+1612214236812	Marionette	INFO	Stopped listening on port 51991
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1612214575869	geckodriver	INFO	Listening on 127.0.0.1:52127
+1612214578887	mozrunner::runner	INFO	Running command: "P:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\joein\\AppData\\Local\\Temp\\rust_mozprofileU8ibDV"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612214580382	Marionette	INFO	Listening on port 52135
+1612214580407	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612214580416	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://www.zwiftpower.com/zp/js/mini/event_results693.js?assets_version=129, line 200: unreachable code after return statement
+1612214621033	Marionette	INFO	Stopped listening on port 52135
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1612214694656	geckodriver	INFO	Listening on 127.0.0.1:52222
+1612214697672	mozrunner::runner	INFO	Running command: "P:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\joein\\AppData\\Local\\Temp\\rust_mozprofileQob9zf"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612214699195	Marionette	INFO	Listening on port 52230
+1612214699692	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612214699702	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://www.zwiftpower.com/zp/js/mini/event_results693.js?assets_version=129, line 200: unreachable code after return statement
+1612214737724	Marionette	INFO	Stopped listening on port 52230
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1612214796158	geckodriver	INFO	Listening on 127.0.0.1:52317
+1612214799171	mozrunner::runner	INFO	Running command: "P:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\joein\\AppData\\Local\\Temp\\rust_mozprofile7F5LNi"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612214800700	Marionette	INFO	Listening on port 52325
+1612214801192	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612214801207	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://www.zwiftpower.com/zp/js/mini/event_results693.js?assets_version=129, line 200: unreachable code after return statement
+1612214844178	Marionette	INFO	Stopped listening on port 52325
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1612215401423	geckodriver	INFO	Listening on 127.0.0.1:52515
+1612215404438	mozrunner::runner	INFO	Running command: "P:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\joein\\AppData\\Local\\Temp\\rust_mozprofileHrgfLg"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612215405937	Marionette	INFO	Listening on port 52527
+1612215405960	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612215405974	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://www.zwiftpower.com/zp/js/mini/event_results693.js?assets_version=129, line 200: unreachable code after return statement
+1612215447827	Marionette	INFO	Stopped listening on port 52527
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1612215638409	geckodriver	INFO	Listening on 127.0.0.1:52617
+1612215641425	mozrunner::runner	INFO	Running command: "P:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\joein\\AppData\\Local\\Temp\\rust_mozprofileAX3oNq"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612215642859	Marionette	INFO	Listening on port 52625
+1612215642944	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612215642954	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://www.zwiftpower.com/zp/js/mini/event_results693.js?assets_version=129, line 200: unreachable code after return statement
+1612215688874	Marionette	INFO	Stopped listening on port 52625
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1612215979577	geckodriver	INFO	Listening on 127.0.0.1:52726
+1612215982590	mozrunner::runner	INFO	Running command: "P:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\joein\\AppData\\Local\\Temp\\rust_mozprofileHElRJu"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612215984083	Marionette	INFO	Listening on port 52734
+1612215984112	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612215984122	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://www.zwiftpower.com/zp/js/mini/event_results693.js?assets_version=129, line 200: unreachable code after return statement
+1612216018527	Marionette	INFO	Stopped listening on port 52734
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1612216125399	geckodriver	INFO	Listening on 127.0.0.1:52819
+1612216128414	mozrunner::runner	INFO	Running command: "P:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\joein\\AppData\\Local\\Temp\\rust_mozprofilelXll5r"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612216129808	Marionette	INFO	Listening on port 52828
+1612216129934	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612216129944	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://www.zwiftpower.com/zp/js/mini/event_results693.js?assets_version=129, line 200: unreachable code after return statement
+1612216173664	Marionette	INFO	Stopped listening on port 52828
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1612216267768	geckodriver	INFO	Listening on 127.0.0.1:52954
+1612216270783	mozrunner::runner	INFO	Running command: "P:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\joein\\AppData\\Local\\Temp\\rust_mozprofilezbNOyH"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612216272441	Marionette	INFO	Listening on port 52962
+1612216272803	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612216272815	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://www.zwiftpower.com/zp/js/mini/event_results693.js?assets_version=129, line 200: unreachable code after return statement
+1612216317220	Marionette	INFO	Stopped listening on port 52962
