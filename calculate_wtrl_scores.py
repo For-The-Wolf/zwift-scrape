@@ -1,5 +1,5 @@
 import pandas as pd
-from os import path
+from os import path, mkdir
 from argparse import ArgumentParser
 from zwift_scrape import zwift_scrape,mkdirAndSave
 import re
