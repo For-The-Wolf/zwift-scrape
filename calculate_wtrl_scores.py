@@ -81,9 +81,6 @@ def main():
         raise ValueError('Please enter a valid URL or filepath')
     if settings.saveName:
             savePath = settings.saveName
-    if not path.exists('./Results'):
-        mkdir('./Results')
-    savePath = path.join('./Results',saveName)
     results = appendScores(finishes,primes,settings.excludeSplit)
     if settings.ptsFirst:
         results = results.sort_values(by=['Category','Total'],ascending=False)
