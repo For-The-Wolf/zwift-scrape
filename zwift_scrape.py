@@ -219,8 +219,9 @@ def mkdirAndSave(name,data,filePath):
 def main():
     parser = ArgumentParser(description = "Scrape all race time data (finish position and primes)  from a zwiftpower URL")
     parser.add_argument('URL',      help = "URL to scrape ZwiftPower results from.")
+    parser.add_argument('--saveName', '-s', help = "Specify a filename for the output (default is zwiftpower race title)")
     settings = parser.parse_args()
-    name, finishes, primes = scrapeZwift(settings.URL)
+    name, finishes, primes = zwift_scrape(settings.URL)
     name = re.sub(r'[^A-Za-z0-9 ]+', '', name)
     if settings.saveName:
         name = settings.saveName
