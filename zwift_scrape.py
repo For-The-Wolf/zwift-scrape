@@ -20,7 +20,7 @@ def zwift_scrape(urlpage,headless = False):
     finishData =[]
 
     platform = sys.platform
-    driverPath = './drivers/geckodriver-{}'.format(platform)
+    driverPath = './Drivers/geckodriver-{}'.format(platform)
     if platform == 'win32':
         driverPath += '.exe'
     with webdriver.Firefox(executable_path=driverPath,service_log_path = './drivers/logs/geckodriver-{}_log.log'.format(platform), options = opts) as driver:
@@ -225,7 +225,9 @@ def main():
     name = re.sub(r'[^A-Za-z0-9 ]+', '', name)
     if settings.saveName:
         name = settings.saveName
-    savePath = path.join('./',name)
+    savePath = path.join('./Results',name)
+    if not path.exists('./Results'):
+        mkdir('./Results')
     mkdirAndSave('finishes',finishes,savePath)
     mkdirAndSave('primes',primes,savePath)
 
