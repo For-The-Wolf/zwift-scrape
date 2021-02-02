@@ -225,9 +225,6 @@ def main():
     name = re.sub(r'[^A-Za-z0-9 ]+', '', name)
     if settings.saveName:
         name = settings.saveName
-    savePath = path.join('./Results',name)
-    if not path.exists('./Results'):
-        mkdir('./Results')
     mkdirAndSave('finishes',finishes,savePath)
     mkdirAndSave('primes',primes,savePath)
 
