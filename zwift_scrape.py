@@ -7,11 +7,13 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import StaleElementReferenceException
 from argparse import ArgumentParser
 import numpy as np
-from os import path,listdir,mkdir
+from os import path,listdir,mkdir,chmod
 import pandas as pd
+from stat import S_IXUSR,S_IWUSR,S_IRUSR
 import sys
 import re
 
+#Hello
 def zwift_scrape(urlpage,headless = False):
     opts = Options()
     if headless:
@@ -23,6 +25,9 @@ def zwift_scrape(urlpage,headless = False):
     driverPath = './drivers/geckodriver-{}'.format(platform)
     if platform == 'win32':
         driverPath += '.exe'
+    elif platform in ['linux','darwin']:
+        chmod(driverPath,S_IXUSR|S_IWUSR|S_IRUSR)
+
     with webdriver.Firefox(executable_path=driverPath,service_log_path = './drivers/logs/geckodriver-{}_log.log'.format(platform), options = opts) as driver:
         driver.implicitly_wait(10)
         driver.get(urlpage)
