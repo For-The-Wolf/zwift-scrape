@@ -225,8 +225,8 @@ def main():
     name = re.sub(r'[^A-Za-z0-9 ]+', '', name)
     if settings.saveName:
         name = settings.saveName
-    mkdirAndSave('finishes',finishes,savePath)
-    mkdirAndSave('primes',primes,savePath)
+    mkdirAndSave('finishes',finishes,name)
+    mkdirAndSave('primes',primes,name)
 
 
 if __name__=='__main__':
