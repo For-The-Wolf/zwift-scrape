@@ -20,7 +20,7 @@ def zwift_scrape(urlpage,headless = False):
     finishData =[]
 
     platform = sys.platform
-    driverPath = './Drivers/geckodriver-{}'.format(platform)
+    driverPath = './drivers/geckodriver-{}'.format(platform)
     if platform == 'win32':
         driverPath += '.exe'
     with webdriver.Firefox(executable_path=driverPath,service_log_path = './drivers/logs/geckodriver-{}_log.log'.format(platform), options = opts) as driver:
