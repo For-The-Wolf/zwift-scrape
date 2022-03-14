@@ -1,7 +1,7 @@
 import pandas as pd
 from os import path, mkdir
 from argparse import ArgumentParser
-from zwift_scrape import zwift_scrape,mkdirAndSave
+from zwift_scrape import scrape, mkdirAndSave
 import re
 
 def isURL(string):
@@ -61,6 +61,7 @@ def importFromCSV(raceName):
     primes = pd.read_csv(path.join(raceName,'primes.csv'))
     return finishes,primes
 
+
 def main():
     parser = ArgumentParser(description='Calculate WTRL scores from zwift-power URL or CSV.')
     parser.add_argument('datapath',help='This can be either a URL to zwift results or a filepath to the output from zwift_scrape.')
@@ -72,7 +73,7 @@ def main():
     name = settings.saveName
     if isURL(settings.datapath):
         url = True
-        savePath,finishes,primes = zwift_scrape(settings.datapath)
+        savePath,finishes,primes = scrape(settings.datapath)
     elif path.exists(settings.datapath):
         url = False
         finishes,primes = importFromCSV(settings.datapath)
@@ -84,7 +85,7 @@ def main():
     results = appendScores(finishes,primes,settings.excludeSplit)
     if settings.ptsFirst:
         results = results.sort_values(by=['Category','Total'],ascending=False)
-    mkdirAndSave('results',results,savePath)
+    mkdirAndSave('WTRL_scores',results,savePath)
     if url and not settings.onlyScores:
         mkdirAndSave('finishes',finishes,savePath)
         mkdirAndSave('primes',primes,savePath)

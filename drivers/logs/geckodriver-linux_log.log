@@ -1,0 +1,925 @@
+./drivers/geckodriver-linux: error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver-linux [FLAGS] [OPTIONS]
+
+For more information try --help
+
+1647260055647	geckodriver	INFO	Listening on 127.0.0.1:42331
+1647260055651	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45999" "-no-remote" "-profile" "/tmp/rust_mozprofileHAIrhV"
+
+(firefox:117084): Gtk-WARNING **: 12:14:15.685: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:117084): Gtk-WARNING **: 12:14:16.421: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:117084): Gtk-WARNING **: 12:14:16.479: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:117084): Gtk-WARNING **: 12:14:16.509: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+1647260056566	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHAIrhV/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:45999/devtools/browser/0b5eee85-4a0e-40c4-8cf2-b64871eb88ae
+1647260057837	Marionette	INFO	Listening on port 34255
+1647260057869	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1647260067338	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1647260075412	Marionette	INFO	Stopped listening on port 34255
+1647260151555	geckodriver	INFO	Listening on 127.0.0.1:46615
+1647260151559	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36471" "-no-remote" "-profile" "/tmp/rust_mozprofileSzBECc"
+
+(firefox:117754): Gtk-WARNING **: 12:15:51.599: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:117754): Gtk-WARNING **: 12:15:52.268: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:117754): Gtk-WARNING **: 12:15:52.326: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:117754): Gtk-WARNING **: 12:15:52.356: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+1647260152411	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSzBECc/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:36471/devtools/browser/61a6414e-44fd-42b1-b3b5-07ad2bc2be42
+1647260153423	Marionette	INFO	Listening on port 36537
+1647260153504	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1647260161268	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+1647260162672	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1647260172477	Marionette	INFO	Stopped listening on port 36537
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1647260176281	geckodriver	INFO	Listening on 127.0.0.1:50759
+1647260176285	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44721" "-no-remote" "-profile" "/tmp/rust_mozprofilenpTuyS"
+
+(firefox:117982): Gtk-WARNING **: 12:16:16.321: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:117982): Gtk-WARNING **: 12:16:16.997: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:117982): Gtk-WARNING **: 12:16:17.055: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:117982): Gtk-WARNING **: 12:16:17.086: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+1647260177140	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenpTuyS/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:44721/devtools/browser/35053521-bdee-4eea-b5ac-4ece6c5bc942
+1647260178197	Marionette	INFO	Listening on port 42063
+1647260178333	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1647260183287	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1647260191330	Marionette	INFO	Stopped listening on port 42063
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1647260254418	geckodriver	INFO	Listening on 127.0.0.1:41021
+1647260254422	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46515" "-no-remote" "-profile" "/tmp/rust_mozprofileKRagpc"
+
+(firefox:118672): Gtk-WARNING **: 12:17:34.457: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:118672): Gtk-WARNING **: 12:17:35.122: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:118672): Gtk-WARNING **: 12:17:35.180: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:118672): Gtk-WARNING **: 12:17:35.210: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+1647260255265	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKRagpc/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:46515/devtools/browser/7146148b-bad8-4493-af07-5f679ade12d3
+1647260256750	Marionette	INFO	Listening on port 35269
+1647260256877	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1647260262074	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+1647260269982	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1800: unreachable code after return statement
+1647260298332	Marionette	INFO	Stopped listening on port 35269
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:332:29
+
+Marionette threw an error: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.js :: allowAllCerts.disable :: line 55"  data: no]
+allowAllCerts.disable@chrome://remote/content/marionette/cert.js:55:23
+destroy@chrome://remote/content/shared/webdriver/Session.jsm:202:19
+GeckoDriver.prototype.deleteSession@chrome://remote/content/marionette/driver.js:2198:25
+GeckoDriver.prototype.quit@chrome://remote/content/marionette/driver.js:2698:8
+despatch@chrome://remote/content/marionette/server.js:306:40
+execute@chrome://remote/content/marionette/server.js:279:16
+onPacket/<@chrome://remote/content/marionette/server.js:252:20
+onPacket@chrome://remote/content/marionette/server.js:253:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.js:500:20
+
+JavaScript error: chrome://remote/content/marionette/driver.js, line 2182: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1647260306964	geckodriver	INFO	Listening on 127.0.0.1:60183
+1647260306968	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53119" "-no-remote" "-profile" "/tmp/rust_mozprofile6TBBqx"
+
+(firefox:118937): Gtk-WARNING **: 12:18:27.003: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:118937): Gtk-WARNING **: 12:18:27.635: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:118937): Gtk-WARNING **: 12:18:27.694: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:118937): Gtk-WARNING **: 12:18:27.725: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+1647260307779	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6TBBqx/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53119/devtools/browser/669f4c10-6b13-402f-ad91-ecf549628751
+1647260309183	Marionette	INFO	Listening on port 45547
+1647260309322	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1647260313970	Marionette	INFO	Stopped listening on port 45547
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:332:29
+
+Marionette threw an error: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.js :: allowAllCerts.disable :: line 55"  data: no]
+allowAllCerts.disable@chrome://remote/content/marionette/cert.js:55:23
+destroy@chrome://remote/content/shared/webdriver/Session.jsm:202:19
+GeckoDriver.prototype.deleteSession@chrome://remote/content/marionette/driver.js:2198:25
+GeckoDriver.prototype.quit@chrome://remote/content/marionette/driver.js:2698:8
+despatch@chrome://remote/content/marionette/server.js:306:40
+execute@chrome://remote/content/marionette/server.js:279:16
+onPacket/<@chrome://remote/content/marionette/server.js:252:20
+onPacket@chrome://remote/content/marionette/server.js:253:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.js:500:20
+
+JavaScript error: chrome://remote/content/marionette/driver.js, line 2182: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1647260331446	geckodriver	INFO	Listening on 127.0.0.1:55343
+1647260331451	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55005" "-no-remote" "-profile" "/tmp/rust_mozprofileFaZGTb"
+
+(firefox:119168): Gtk-WARNING **: 12:18:51.485: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:119168): Gtk-WARNING **: 12:18:52.147: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:119168): Gtk-WARNING **: 12:18:52.205: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:119168): Gtk-WARNING **: 12:18:52.236: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+1647260332291	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFaZGTb/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55005/devtools/browser/9e143dec-40c7-405e-8004-5b8f633b7bee
+1647260333580	Marionette	INFO	Listening on port 37265
+1647260333674	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1647260338817	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1800: unreachable code after return statement
+1647260367942	Marionette	INFO	Stopped listening on port 37265
+1647266565092	geckodriver	INFO	Listening on 127.0.0.1:59597
+1647266565096	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54055" "-no-remote" "-profile" "/tmp/rust_mozprofileSYme3J"
+
+(firefox:122924): Gtk-WARNING **: 14:02:45.132: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:122924): Gtk-WARNING **: 14:02:45.783: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:122924): Gtk-WARNING **: 14:02:45.841: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:122924): Gtk-WARNING **: 14:02:45.872: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+1647266565926	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSYme3J/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54055/devtools/browser/f02cf615-560b-4dc8-8d7d-1a1db2c91c0e
+1647266567183	Marionette	INFO	Listening on port 42915
+1647266567243	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1647266572150	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1647266575841	Marionette	INFO	Stopped listening on port 42915
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:332:29
+
+Marionette threw an error: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.js :: allowAllCerts.disable :: line 55"  data: no]
+allowAllCerts.disable@chrome://remote/content/marionette/cert.js:55:23
+destroy@chrome://remote/content/shared/webdriver/Session.jsm:202:19
+GeckoDriver.prototype.deleteSession@chrome://remote/content/marionette/driver.js:2198:25
+GeckoDriver.prototype.quit@chrome://remote/content/marionette/driver.js:2698:8
+despatch@chrome://remote/content/marionette/server.js:306:40
+execute@chrome://remote/content/marionette/server.js:279:16
+onPacket/<@chrome://remote/content/marionette/server.js:252:20
+onPacket@chrome://remote/content/marionette/server.js:253:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.js:500:20
+
+JavaScript error: chrome://remote/content/marionette/driver.js, line 2182: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1647266952691	geckodriver	INFO	Listening on 127.0.0.1:34085
+1647266952695	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43093" "-no-remote" "-profile" "/tmp/rust_mozprofileuiXXSo"
+
+(firefox:123367): Gtk-WARNING **: 14:09:12.731: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:123367): Gtk-WARNING **: 14:09:13.575: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:123367): Gtk-WARNING **: 14:09:13.635: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:123367): Gtk-WARNING **: 14:09:13.666: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+1647266953721	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileuiXXSo/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:43093/devtools/browser/001a3cfd-2be2-4bbb-be46-0c20cf84f730
+1647266955582	Marionette	INFO	Listening on port 41013
+1647266955613	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1647266960325	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1800: unreachable code after return statement
+1647267000112	Marionette	INFO	Stopped listening on port 41013
+1647267499643	geckodriver	INFO	Listening on 127.0.0.1:45825
+1647267499647	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54995" "-no-remote" "-profile" "/tmp/rust_mozprofileJtOt4r"
+
+(firefox:124087): Gtk-WARNING **: 14:18:19.681: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:124087): Gtk-WARNING **: 14:18:20.333: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:124087): Gtk-WARNING **: 14:18:20.392: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:124087): Gtk-WARNING **: 14:18:20.423: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+1647267500478	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJtOt4r/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54995/devtools/browser/e2203a9a-6a3e-4b86-8ae8-d7d4d3db58cc
+1647267501512	Marionette	INFO	Listening on port 38843
+1647267501562	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1647267505314	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1800: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1647267847934	geckodriver	INFO	Listening on 127.0.0.1:35393
+1647267847938	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60295" "-no-remote" "-profile" "/tmp/rust_mozprofileg1CbNU"
+
+(firefox:124489): Gtk-WARNING **: 14:24:07.977: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:124489): Gtk-WARNING **: 14:24:08.653: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:124489): Gtk-WARNING **: 14:24:08.711: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:124489): Gtk-WARNING **: 14:24:08.743: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+1647267848800	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileg1CbNU/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60295/devtools/browser/a5ba5dcc-ef07-4954-be2e-f96a58c237c3
+1647267850094	Marionette	INFO	Listening on port 35381
+1647267850168	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1647267854125	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1800: unreachable code after return statement
+1647267866507	Marionette	INFO	Stopped listening on port 35381
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1647267875459	geckodriver	INFO	Listening on 127.0.0.1:54603
+1647267875463	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53957" "-no-remote" "-profile" "/tmp/rust_mozprofilewKI6Ih"
+
+(firefox:124749): Gtk-WARNING **: 14:24:35.497: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:124749): Gtk-WARNING **: 14:24:36.188: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:124749): Gtk-WARNING **: 14:24:36.247: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:124749): Gtk-WARNING **: 14:24:36.278: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+1647267876332	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewKI6Ih/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53957/devtools/browser/aa30807c-5ec0-44fe-af30-e4bf61859799
+1647267877667	Marionette	INFO	Listening on port 35659
+1647267877697	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1647267904554	geckodriver	INFO	Listening on 127.0.0.1:38325
+1647267904558	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35379" "-no-remote" "-profile" "/tmp/rust_mozprofilemqF2Ra"
+
+(firefox:125093): Gtk-WARNING **: 14:25:04.592: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:125093): Gtk-WARNING **: 14:25:05.272: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:125093): Gtk-WARNING **: 14:25:05.330: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:125093): Gtk-WARNING **: 14:25:05.361: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+1647267905415	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemqF2Ra/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:35379/devtools/browser/ce63263a-d757-41c8-be15-d3dc8a3a5cda
+1647267906387	Marionette	INFO	Listening on port 34367
+1647267906484	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1647267911135	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1800: unreachable code after return statement
+1647267936324	Marionette	INFO	Stopped listening on port 34367
+1647268262160	geckodriver	INFO	Listening on 127.0.0.1:33091
+1647268262164	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57619" "-no-remote" "-profile" "/tmp/rust_mozprofilevD3B6I"
+
+(firefox:125617): Gtk-WARNING **: 14:31:02.198: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:125617): Gtk-WARNING **: 14:31:02.888: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:125617): Gtk-WARNING **: 14:31:02.946: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:125617): Gtk-WARNING **: 14:31:02.977: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+1647268263031	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevD3B6I/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57619/devtools/browser/bef3ac6b-25b3-4084-af8f-78e0583c5241
+1647268264208	Marionette	INFO	Listening on port 37741
+1647268264287	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1647268270601	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1800: unreachable code after return statement
+1647268282849	Marionette	INFO	Stopped listening on port 37741
+1647268307127	geckodriver	INFO	Listening on 127.0.0.1:53427
+1647268307131	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33855" "-no-remote" "-profile" "/tmp/rust_mozprofile5Bv2GV"
+
+(firefox:125922): Gtk-WARNING **: 14:31:47.171: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:125922): Gtk-WARNING **: 14:31:47.829: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:125922): Gtk-WARNING **: 14:31:47.888: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:125922): Gtk-WARNING **: 14:31:47.919: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+1647268307974	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5Bv2GV/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33855/devtools/browser/d07ae843-a599-4131-8d81-918fa9157e68
+1647268309388	Marionette	INFO	Listening on port 35729
+1647268310095	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1647268314952	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1800: unreachable code after return statement
+1647268336176	Marionette	INFO	Stopped listening on port 35729
+1647268398765	geckodriver	INFO	Listening on 127.0.0.1:39463
+1647268398769	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48559" "-no-remote" "-profile" "/tmp/rust_mozprofileKq3GBw"
+
+(firefox:126270): Gtk-WARNING **: 14:33:18.808: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:126270): Gtk-WARNING **: 14:33:19.474: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:126270): Gtk-WARNING **: 14:33:19.533: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:126270): Gtk-WARNING **: 14:33:19.564: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+1647268399619	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKq3GBw/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:48559/devtools/browser/07458657-bd45-4c93-9a70-927c38dd9b7b
+1647268401038	Marionette	INFO	Listening on port 46017
+1647268401102	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1647268406413	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1800: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1647268576395	geckodriver	INFO	Listening on 127.0.0.1:53885
+1647268576399	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36941" "-no-remote" "-profile" "/tmp/rust_mozprofileAZbPT0"
+
+(firefox:126636): Gtk-WARNING **: 14:36:16.434: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:126636): Gtk-WARNING **: 14:36:17.099: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:126636): Gtk-WARNING **: 14:36:17.157: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:126636): Gtk-WARNING **: 14:36:17.188: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+1647268577243	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAZbPT0/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:36941/devtools/browser/8040cce7-d18c-4025-b08d-ccf4bf8bd975
+1647268578459	Marionette	INFO	Listening on port 36069
+1647268578572	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1647268583250	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1800: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1647268896295	geckodriver	INFO	Listening on 127.0.0.1:55301
+1647268896299	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49041" "-no-remote" "-profile" "/tmp/rust_mozprofile0TBw3G"
+
+(firefox:127205): Gtk-WARNING **: 14:41:36.336: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:127205): Gtk-WARNING **: 14:41:37.000: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:127205): Gtk-WARNING **: 14:41:37.059: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:127205): Gtk-WARNING **: 14:41:37.089: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+1647268897144	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0TBw3G/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49041/devtools/browser/d5863bf3-480e-42e1-adc4-7b1ad8afcc64
+1647268898460	Marionette	INFO	Listening on port 34235
+1647268898515	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1647268902933	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1800: unreachable code after return statement
+1647268938655	Marionette	INFO	Stopped listening on port 34235
+Marionette threw an error: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.js :: allowAllCerts.disable :: line 55"  data: no]
+allowAllCerts.disable@chrome://remote/content/marionette/cert.js:55:23
+destroy@chrome://remote/content/shared/webdriver/Session.jsm:202:19
+GeckoDriver.prototype.deleteSession@chrome://remote/content/marionette/driver.js:2198:25
+GeckoDriver.prototype.quit@chrome://remote/content/marionette/driver.js:2698:8
+despatch@chrome://remote/content/marionette/server.js:306:40
+execute@chrome://remote/content/marionette/server.js:279:16
+onPacket/<@chrome://remote/content/marionette/server.js:252:20
+onPacket@chrome://remote/content/marionette/server.js:253:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.js:500:20
+
+JavaScript error: chrome://remote/content/marionette/driver.js, line 2182: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1647268956930	geckodriver	INFO	Listening on 127.0.0.1:47815
+1647268956934	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42437" "-no-remote" "-profile" "/tmp/rust_mozprofilevLJF5G"
+
+(firefox:127511): Gtk-WARNING **: 14:42:36.970: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:127511): Gtk-WARNING **: 14:42:37.646: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:127511): Gtk-WARNING **: 14:42:37.704: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:127511): Gtk-WARNING **: 14:42:37.735: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+1647268957790	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevLJF5G/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:42437/devtools/browser/a34f41e6-8ce4-4d9c-881a-dc8df2456730
+1647268959380	Marionette	INFO	Listening on port 37717
+1647268959450	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1647268964036	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1800: unreachable code after return statement
+1647269001773	Marionette	INFO	Stopped listening on port 37717
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Marionette threw an error: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.js :: allowAllCerts.disable :: line 55"  data: no]
+allowAllCerts.disable@chrome://remote/content/marionette/cert.js:55:23
+destroy@chrome://remote/content/shared/webdriver/Session.jsm:202:19
+GeckoDriver.prototype.deleteSession@chrome://remote/content/marionette/driver.js:2198:25
+GeckoDriver.prototype.quit@chrome://remote/content/marionette/driver.js:2698:8
+despatch@chrome://remote/content/marionette/server.js:306:40
+execute@chrome://remote/content/marionette/server.js:279:16
+onPacket/<@chrome://remote/content/marionette/server.js:252:20
+onPacket@chrome://remote/content/marionette/server.js:253:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.js:500:20
+
+1647269001833	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+JavaScript error: chrome://remote/content/marionette/driver.js, line 2182: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+[2022-03-14T14:43:21Z ERROR glean] Can't persist ping lifetime data: Error { kind: Rkv(IoError(Os { code: 2, kind: NotFound, message: "No such file or directory" })) }
+1647269110365	geckodriver	INFO	Listening on 127.0.0.1:43795
+1647269110369	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55499" "-no-remote" "-profile" "/tmp/rust_mozprofileFfRnHJ"
+
+(firefox:127974): Gtk-WARNING **: 14:45:10.404: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:127974): Gtk-WARNING **: 14:45:11.079: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:127974): Gtk-WARNING **: 14:45:11.138: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:127974): Gtk-WARNING **: 14:45:11.168: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+1647269111223	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFfRnHJ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55499/devtools/browser/92dc1e55-12d9-417d-89a6-24be89c4157f
+1647269112523	Marionette	INFO	Listening on port 44511
+1647269113372	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1647269117727	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1800: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1647269223297	geckodriver	INFO	Listening on 127.0.0.1:42675
+1647269223301	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59489" "-no-remote" "-profile" "/tmp/rust_mozprofile7pd7Wg"
+
+(firefox:128286): Gtk-WARNING **: 14:47:03.335: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:128286): Gtk-WARNING **: 14:47:03.959: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:128286): Gtk-WARNING **: 14:47:04.017: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:128286): Gtk-WARNING **: 14:47:04.048: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+1647269224103	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7pd7Wg/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59489/devtools/browser/cb85e83f-053e-4627-b51e-9e0508fba3f9
+1647269225126	Marionette	INFO	Listening on port 37349
+1647269225215	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1647269229229	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+1647269237945	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1800: unreachable code after return statement
+1647269259757	Marionette	INFO	Stopped listening on port 37349
+Marionette threw an error: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.js :: allowAllCerts.disable :: line 55"  data: no]
+allowAllCerts.disable@chrome://remote/content/marionette/cert.js:55:23
+destroy@chrome://remote/content/shared/webdriver/Session.jsm:202:19
+GeckoDriver.prototype.deleteSession@chrome://remote/content/marionette/driver.js:2198:25
+GeckoDriver.prototype.quit@chrome://remote/content/marionette/driver.js:2698:8
+despatch@chrome://remote/content/marionette/server.js:306:40
+execute@chrome://remote/content/marionette/server.js:279:16
+onPacket/<@chrome://remote/content/marionette/server.js:252:20
+onPacket@chrome://remote/content/marionette/server.js:253:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.js:500:20
+
+JavaScript error: chrome://remote/content/marionette/driver.js, line 2182: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1647269353233	geckodriver	INFO	Listening on 127.0.0.1:37317
+1647269353237	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39457" "-no-remote" "-profile" "/tmp/rust_mozprofileAgVGmV"
+
+(firefox:128640): Gtk-WARNING **: 14:49:13.271: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:128640): Gtk-WARNING **: 14:49:13.955: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:128640): Gtk-WARNING **: 14:49:14.013: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:128640): Gtk-WARNING **: 14:49:14.044: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+1647269354099	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAgVGmV/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:39457/devtools/browser/84c9608e-5118-4e5e-8c4e-21a0a6ac34fa
+1647269355189	Marionette	INFO	Listening on port 37831
+1647269355275	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1647269358853	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1800: unreachable code after return statement
+1647269375871	Marionette	INFO	Stopped listening on port 37831
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1647269512289	geckodriver	INFO	Listening on 127.0.0.1:45271
+1647269512293	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33349" "-no-remote" "-profile" "/tmp/rust_mozprofile08IRiH"
+
+(firefox:129018): Gtk-WARNING **: 14:51:52.333: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:129018): Gtk-WARNING **: 14:51:53.008: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:129018): Gtk-WARNING **: 14:51:53.066: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:129018): Gtk-WARNING **: 14:51:53.097: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+1647269513152	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile08IRiH/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33349/devtools/browser/2f4afbdd-743b-49c8-ad1d-76e8f68d1ba2
+1647269514670	Marionette	INFO	Listening on port 44063
+1647269514745	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1647269519307	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1800: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1647269712134	geckodriver	INFO	Listening on 127.0.0.1:54679
+1647269712138	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36653" "-no-remote" "-profile" "/tmp/rust_mozprofileUKD9Nm"
+
+(firefox:129424): Gtk-WARNING **: 14:55:12.177: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:129424): Gtk-WARNING **: 14:55:12.853: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:129424): Gtk-WARNING **: 14:55:12.911: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:129424): Gtk-WARNING **: 14:55:12.942: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+1647269712997	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUKD9Nm/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:36653/devtools/browser/5055f751-29c4-4986-b312-878c38846921
+1647269714192	Marionette	INFO	Listening on port 46717
+1647269714254	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1647269718989	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1800: unreachable code after return statement
+1647269754975	Marionette	INFO	Stopped listening on port 46717
+1647270406250	geckodriver	INFO	Listening on 127.0.0.1:57339
+1647270406254	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49745" "-no-remote" "-profile" "/tmp/rust_mozprofile2CNgsI"
+
+(firefox:130493): Gtk-WARNING **: 15:06:46.288: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:130493): Gtk-WARNING **: 15:06:46.927: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:130493): Gtk-WARNING **: 15:06:46.986: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:130493): Gtk-WARNING **: 15:06:47.016: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+1647270407072	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2CNgsI/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49745/devtools/browser/b79f00ee-7503-4bf1-94df-afc0b6a56d3c
+1647270408486	Marionette	INFO	Listening on port 43357
+1647270408608	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1647270412841	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1800: unreachable code after return statement
+1647270462520	Marionette	INFO	Stopped listening on port 43357
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1647270784090	geckodriver	INFO	Listening on 127.0.0.1:38817
+1647270784094	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41767" "-no-remote" "-profile" "/tmp/rust_mozprofilecydzLw"
+
+(firefox:131001): Gtk-WARNING **: 15:13:04.142: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:131001): Gtk-WARNING **: 15:13:04.839: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:131001): Gtk-WARNING **: 15:13:04.898: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:131001): Gtk-WARNING **: 15:13:04.929: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: glxtest: X error, error_code=2, request_code=151, minor_code=3
+[GFX1-]: glxtest: process failed (exited with status 1)
+1647270784984	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilecydzLw/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:41767/devtools/browser/ab849dcc-89d9-45ea-9c26-81d575f4cdca
+1647270786034	Marionette	INFO	Listening on port 34827
+1647270786125	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1647270790154	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1800: unreachable code after return statement
+1647270839868	Marionette	INFO	Stopped listening on port 34827
+1647273351751	geckodriver	INFO	Listening on 127.0.0.1:55403
+1647273352250	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35049" "-no-remote" "-profile" "/tmp/rust_mozprofileAIPLnh"
+
+(firefox:6306): Gtk-WARNING **: 15:55:52.453: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:6306): Gtk-WARNING **: 15:55:53.652: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:6306): Gtk-WARNING **: 15:55:53.710: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:6306): Gtk-WARNING **: 15:55:53.741: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+1647273353948	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAIPLnh/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:35049/devtools/browser/3f8e45a2-d24f-4e01-ac1d-6fe152a7db67
+1647273355620	Marionette	INFO	Listening on port 41655
+1647273355689	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1647273359801	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1800: unreachable code after return statement
+1647273389849	Marionette	INFO	Stopped listening on port 41655
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1647273412312	geckodriver	INFO	Listening on 127.0.0.1:54699
+1647273412316	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58811" "-no-remote" "-profile" "/tmp/rust_mozprofileDb2D8z"
+
+(firefox:6553): Gtk-WARNING **: 15:56:52.350: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:6553): Gtk-WARNING **: 15:56:53.012: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:6553): Gtk-WARNING **: 15:56:53.070: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:6553): Gtk-WARNING **: 15:56:53.101: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+1647273413272	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDb2D8z/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58811/devtools/browser/f6070a5b-41c4-427a-9f32-993e219fbc08
+1647273414348	Marionette	INFO	Listening on port 43491
+1647273414443	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1647273418038	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1800: unreachable code after return statement
+1647273440847	Marionette	INFO	Stopped listening on port 43491
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1647273590526	geckodriver	INFO	Listening on 127.0.0.1:37357
+1647273590530	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55349" "-no-remote" "-profile" "/tmp/rust_mozprofile6tVsYi"
+
+(firefox:6997): Gtk-WARNING **: 15:59:50.565: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:6997): Gtk-WARNING **: 15:59:51.243: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:6997): Gtk-WARNING **: 15:59:51.301: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:6997): Gtk-WARNING **: 15:59:51.332: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+1647273591481	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6tVsYi/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55349/devtools/browser/becb2be4-0a83-42a3-ad2b-f05404f2fb17
+1647273592475	Marionette	INFO	Listening on port 44389
+1647273592545	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1647273596643	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1647273604824	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1800: unreachable code after return statement
+1647273625748	Marionette	INFO	Stopped listening on port 44389
+1647275053149	geckodriver	INFO	Listening on 127.0.0.1:43925
+1647275053153	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49277" "-no-remote" "-profile" "/tmp/rust_mozprofileD7UpS3"
+
+(firefox:8093): Gtk-WARNING **: 16:24:13.187: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:8093): Gtk-WARNING **: 16:24:13.851: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:8093): Gtk-WARNING **: 16:24:13.909: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:8093): Gtk-WARNING **: 16:24:13.940: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+1647275054121	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileD7UpS3/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49277/devtools/browser/23425b2e-a5d2-47e1-ac47-3896c88b5cbe
+1647275055185	Marionette	INFO	Listening on port 38001
+1647275055268	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1647275058696	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1800: unreachable code after return statement
+1647275089402	Marionette	INFO	Stopped listening on port 38001
+1647275120486	geckodriver	INFO	Listening on 127.0.0.1:58169
+1647275120490	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56273" "-no-remote" "-profile" "/tmp/rust_mozprofilejB0INO"
+
+(firefox:8350): Gtk-WARNING **: 16:25:20.524: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:8350): Gtk-WARNING **: 16:25:21.146: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:8350): Gtk-WARNING **: 16:25:21.205: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+
+(firefox:8350): Gtk-WARNING **: 16:25:21.235: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+1647275121395	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilejB0INO/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56273/devtools/browser/aa2dc95a-2c88-47a8-aaaf-9dd319a2cd9c
+1647275122466	Marionette	INFO	Listening on port 38955
+1647275122512	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1647275126643	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1800: unreachable code after return statement
+1647275154726	Marionette	INFO	Stopped listening on port 38955
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
