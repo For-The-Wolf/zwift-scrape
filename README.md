@@ -1,5 +1,5 @@
 # zwift-scrape
-A Python command-line utility to scrape race results from [ZwiftPower](www.zwiftpower.com), also includes a score calculator for [WTRL](https://www.wtrl.racing/) time trials.
+A Python command-line utility to scrape race results from [ZwiftPower](https://zwiftpower.com), also includes a score calculator for [WTRL](https://www.wtrl.racing/) time trials.
 
 ## Description
 
