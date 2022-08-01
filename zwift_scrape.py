@@ -18,159 +18,157 @@ def scrape(urlpage, headless=False):
     opts = Options()
     if headless:
         opts.headless = True
-    print("Scraping data from: {}.".format(urlpage))
-    finishData = []
-
+    scraped_data = {} 
     platform = sys.platform
     driverPath = "./drivers/geckodriver-{}".format(platform)
     if platform == "win32":
         driverPath += ".exe"
     elif platform in ["linux", "darwin"]:
         chmod(driverPath, S_IXUSR | S_IWUSR | S_IRUSR)
-
     with webdriver.Firefox(
         executable_path=driverPath,
         service_log_path="./drivers/logs/geckodriver-{}_log.log".format(platform),
         options=opts,
     ) as driver:
         driver.implicitly_wait(10)
-        driver.get(urlpage)
-        login_button = driver.find_element(
-            By.XPATH, '//*[@id="login"]/fieldset/div/div[1]/div/a'
-        )
-        login_button.click()
-        login_wait = WebDriverWait(driver, 30)
-        raceName = login_wait.until(
-            lambda driver: driver.find_element(
-                By.XPATH, '//*[@id="header_details"]/div[1]/h3'
-            ).text
-        )
-        raceName = re.sub(r"[^A-Za-z0-9 ]+", "", raceName)
-        print("Downloading data for {}".format(raceName))
-        pages_loaded = WebDriverWait(driver, 10).until(
-            lambda driver: len(
-                driver.find_elements(
-                    By.XPATH, '//*[@id="table_event_results_final_paginate"]/ul/li'
-                )[1:-1]
+        for n, url in enumerate(urlpage):
+            print("Scraping data from: {}.".format(url))
+            finishData = []
+            driver.get(url)
+            if n == 0:
+                login_button = driver.find_element(
+                    By.XPATH, '//*[@id="login"]/fieldset/div/div[1]/div/a'
+                )
+                login_button.click()
+                login_wait = WebDriverWait(driver, 30)
+            raceName = login_wait.until(
+                lambda driver: driver.find_element(
+                    By.XPATH, '//*[@id="header_details"]/div[1]/h3'
+                ).text
             )
-            > 0
-        )
-        pages = driver.find_elements(
-            By.XPATH, '//*[@id="table_event_results_final_paginate"]/ul/li'
-        )[1:-1]
-        nPages = len(pages)
-        print(nPages)
-        results = driver.find_element(
-            By.XPATH, '//*[@id="table_event_results_final"]/tbody'
-        )
-        print("Collecting finish data for all riders...")
-        for n in range(2, nPages + 2):
-            if n > 2:
-                button = driver.find_element(
-                    By.XPATH,
-                    '//*[@id="table_event_results_final_paginate"]/ul/li[{}]/a'.format(
-                        n
-                    ),
+            raceName = re.sub(r"[^A-Za-z0-9 ]+", "", raceName)
+            print("Downloading data for {}".format(raceName))
+            _pages_loaded = WebDriverWait(driver, 10).until(
+                lambda driver: len(
+                    driver.find_elements(
+                        By.XPATH, '//*[@id="table_event_results_final_paginate"]/ul/li'
+                    )[1:-1]
                 )
-                name1 = (
-                    results.find_elements(By.TAG_NAME, "tr")[0]
-                    .find_elements(By.TAG_NAME, "td")[2]
-                    .text
-                )
-                driver.execute_script("arguments[0].click();", button)
-                while (
-                    results.find_elements(By.TAG_NAME, "tr")[0]
-                    .find_elements(By.TAG_NAME, "td")[2]
-                    .text
-                    == name1
-                ):
-                    results = driver.find_element(
-                        By.XPATH, '//*[@id="table_event_results_final"]/tbody'
+                > 0
+            )
+            pages = driver.find_elements(
+                By.XPATH, '//*[@id="table_event_results_final_paginate"]/ul/li'
+            )[1:-1]
+            nPages = len(pages)
+            results = driver.find_element(
+                By.XPATH, '//*[@id="table_event_results_final"]/tbody'
+            )
+            print("Collecting finish data for all riders...")
+            for n in range(2, nPages + 2):
+                if n > 2:
+                    button = driver.find_element(
+                        By.XPATH,
+                        '//*[@id="table_event_results_final_paginate"]/ul/li[{}]/a'.format(
+                            n
+                        ),
                     )
-                    sleep(0.5)
-            rows = results.find_elements(By.TAG_NAME, "tr")
-            for row in rows:
-                cols = row.find_elements(By.TAG_NAME, "td")
-                category = cols[0].text
-                name = toName(cols[2].text)
-                time = finishTime(cols[3].text)
-                finishData += [{"Name": name, "Category": category, "Time": time}]
-        print("Found {} riders.".format(len(finishData)))
-        toPrimes = driver.find_element(By.XPATH, '//*[@id="zp_submenu"]/ul/li[4]/a')
-        toPrimes.click()
-        cButtons = driver.find_elements(
-            By.XPATH, '//*[@id="table_scroll_overview"]/div[1]/div[1]/button'
-        )
-        categoryBottons = [
-            but for but in cButtons if not (but.text == "" or but.text == "All")
-        ]
-        pButtons = driver.find_elements(
-            By.XPATH, '//*[@id="table_scroll_overview"]/div[1]/div[2]/button'
-        )
-        primeButtons = [but for but in pButtons if not but.text == ""]
-        primeResults = driver.find_element(
-            By.XPATH, '//*[@id="table_event_primes"]/tbody'
-        )
-        while True:
-            try:
-                testCell = (
-                    primeResults.find_elements(By.TAG_NAME, "tr")[0]
-                    .find_elements(By.TAG_NAME, "td")[3]
-                    .text
-                )
-            except IndexError:
-                sleep(0.5)
-            else:
-                break
-        presults = {}
-        primeButtons.reverse()
-        for catBut in categoryBottons:
-            category = catBut.text
-            print("Collecting prime data for category {}...".format(category))
-            presults[category] = {}
-            catBut.click()
-            for primeBut in primeButtons:
-                prime = primeBut.text
-                presults[category][prime] = {}
-                primeBut.click()
-                testCell2 = testCell
-                while testCell == testCell2:
-                    try:
-                        testCell2 = (
-                            driver.find_element(
-                                By.XPATH, '//*[@id="table_event_primes"]/tbody'
-                            )
-                            .find_elements(By.TAG_NAME, "tr")[0]
-                            .find_elements(By.TAG_NAME, "td")[3]
-                            .text
+                    name1 = (
+                        results.find_elements(By.TAG_NAME, "tr")[0]
+                        .find_elements(By.TAG_NAME, "td")[2]
+                        .text
+                    )
+                    driver.execute_script("arguments[0].click();", button)
+                    while (
+                        results.find_elements(By.TAG_NAME, "tr")[0]
+                        .find_elements(By.TAG_NAME, "td")[2]
+                        .text
+                        == name1
+                    ):
+                        results = driver.find_element(
+                            By.XPATH, '//*[@id="table_event_results_final"]/tbody'
                         )
-                    except StaleElementReferenceException:
-                        testCell2 = testCell
-                    sleep(0.5)
-
-                testCell = testCell2
-                primeResults = driver.find_element(
-                    By.XPATH, '//*[@id="table_event_primes"]/tbody'
-                )
-                rows = primeResults.find_elements(By.TAG_NAME, "tr")
+                        sleep(0.5)
+                rows = results.find_elements(By.TAG_NAME, "tr")
                 for row in rows:
                     cols = row.find_elements(By.TAG_NAME, "td")
-                    lap = cols[0].text
-                    splitName = cols[1].text
-                    scores = {
-                        toName(cols[n].text): primeTime(cols[n + 1].text, prime)
-                        for n in range(2, len(cols), 2)
-                        if not cols[n].text == ""
-                    }
-                    combinedName = "{}_{}".format(lap, splitName)
-                    presults[category][prime][combinedName] = scores
-        print("Closing connection to {}".format(urlpage))
-    print("Formatting scraped data...")
-    finishResults = formatFinishes(finishData)
-    primeResults = formatPrimes(presults)
-    print("Done.")
+                    category = cols[0].text
+                    name = toName(cols[2].text)
+                    time = finishTime(cols[3].text)
+                    finishData += [{"Name": name, "Category": category, "Time": time}]
+            print("Found {} riders.".format(len(finishData)))
+            toPrimes = driver.find_element(By.XPATH, '//*[@id="zp_submenu"]/ul/li[4]/a')
+            toPrimes.click()
+            cButtons = driver.find_elements(
+                By.XPATH, '//*[@id="table_scroll_overview"]/div[1]/div[1]/button'
+            )
+            categoryBottons = [
+                but for but in cButtons if not (but.text == "" or but.text == "All")
+            ]
+            pButtons = driver.find_elements(
+                By.XPATH, '//*[@id="table_scroll_overview"]/div[1]/div[2]/button'
+            )
+            primeButtons = [but for but in pButtons if not but.text == ""]
+            primeResults = driver.find_element(
+                By.XPATH, '//*[@id="table_event_primes"]/tbody'
+            )
+            while True:
+                try:
+                    testCell = (
+                        primeResults.find_elements(By.TAG_NAME, "tr")[0]
+                        .find_elements(By.TAG_NAME, "td")[3]
+                        .text
+                    )
+                except IndexError:
+                    sleep(0.5)
+                else:
+                    break
+            presults = {}
+            primeButtons.reverse()
+            for catBut in categoryBottons:
+                category = catBut.text
+                print("Collecting prime data for category {}...".format(category))
+                presults[category] = {}
+                catBut.click()
+                for primeBut in primeButtons:
+                    prime = primeBut.text
+                    presults[category][prime] = {}
+                    primeBut.click()
+                    testCell2 = testCell
+                    while testCell == testCell2:
+                        try:
+                            testCell2 = (
+                                driver.find_element(
+                                    By.XPATH, '//*[@id="table_event_primes"]/tbody'
+                                )
+                                .find_elements(By.TAG_NAME, "tr")[0]
+                                .find_elements(By.TAG_NAME, "td")[3]
+                                .text
+                            )
+                        except StaleElementReferenceException:
+                            testCell2 = testCell
+                        sleep(0.5)
 
-    return raceName, finishResults, primeResults
+                    testCell = testCell2
+                    primeResults = driver.find_element(
+                        By.XPATH, '//*[@id="table_event_primes"]/tbody'
+                    )
+                    rows = primeResults.find_elements(By.TAG_NAME, "tr")
+                    for row in rows:
+                        cols = row.find_elements(By.TAG_NAME, "td")
+                        lap = cols[0].text
+                        splitName = cols[1].text
+                        scores = {
+                            toName(cols[n].text): primeTime(cols[n + 1].text, prime)
+                            for n in range(2, len(cols), 2)
+                            if not cols[n].text == ""
+                        }
+                        combinedName = "{}_{}".format(lap, splitName)
+                        presults[category][prime][combinedName] = scores
+            scraped_data[raceName] = [formatFinishes(finishData), formatPrimes(presults)]
+            print("Closing connection to {}".format(url))
+        print("Formatting scraped data...")
+    print("Done.")
+    return scraped_data
 
 
 def toName(string):
@@ -303,19 +301,20 @@ def main():
     parser = ArgumentParser(
         description="Scrape all race time data (finish position and primes)  from a zwiftpower URL"
     )
-    parser.add_argument("URL", help="URL to scrape ZwiftPower results from.")
+    parser.add_argument("URL", nargs='+', help="URLs to scrape ZwiftPower results from (must include at least one).")
     parser.add_argument(
         "--saveName",
         "-s",
         help="Specify a filename for the output (default is zwiftpower race title)",
     )
     settings = parser.parse_args()
-    name, finishes, primes = scrape(settings.URL)
-    name = re.sub(r"[^A-Za-z0-9 ]+", "", name)
-    if settings.saveName:
-        name = settings.saveName
-    mkdirAndSave("finishes", finishes, name)
-    mkdirAndSave("primes", primes, name)
+    results = scrape(settings.URL)
+    for name, event in results.items():
+        name = re.sub(r"[^A-Za-z0-9 ]+", "", name)
+        if settings.saveName:
+            name = f"{settings.saveName}_{n}"
+        mkdirAndSave("finishes", event[0], name)
+        mkdirAndSave("primes", event[1], name)
 
 if __name__ == "__main__":
     main()

@@ -923,3 +923,9 @@ JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1659345019964	geckodriver	INFO	Listening on 127.0.0.1:63665
+1659345019983	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilevCbP82"
+Error: no DISPLAY environment variable specified
+1659345040193	geckodriver	INFO	Listening on 127.0.0.1:63685
+1659345040206	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilelQdfSh"
+Error: no DISPLAY environment variable specified
