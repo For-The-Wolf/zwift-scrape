@@ -309,7 +309,7 @@ def main():
     )
     settings = parser.parse_args()
     results = scrape(settings.URL)
-    for name, event in results.items():
+    for n, (name, event) in enumerate(results.items()):
         name = re.sub(r"[^A-Za-z0-9 ]+", "", name)
         if settings.saveName:
             name = f"{settings.saveName}_{n}"
