@@ -1,7 +1,7 @@
-#i zwift-scrape
+# zwift-scrape
 A Python command-line utility to scrape race results from [ZwiftPower](https://zwiftpower.com), also includes a score calculator for [WTRL](https://www.wtrl.racing/) time trials.
 
-## Recent changes to ZwiftPower
+## !! Recent changes to ZwiftPower
 
 ZwiftPower now requires you to log in with a Zwift account in order to access their data. The WebDriver will wait for you to log in before proceeding to scrape results. Because of this, running with a headless WebDriver no longer works.
 
